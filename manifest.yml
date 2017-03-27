@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: consume-iot
+  host: consume-iot
+  disk_quota: 1024M
+  services:
+  - consume-iot-cloudantNoSQLDB
